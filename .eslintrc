@@ -1,0 +1,19 @@
+{
+  "env": {
+    "jest/globals": true,
+    "node": true,
+    "browser": true
+  },
+  "parser": "babel-eslint",
+  "extends": [
+    "xo-space",
+    "xo-space/esnext",
+    "xo-space/browser",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["babel", "jest"],
+  "rules": {
+    "babel/semi": 1
+  }
+}

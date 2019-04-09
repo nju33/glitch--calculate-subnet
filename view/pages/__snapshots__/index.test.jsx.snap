@@ -1,0 +1,1091 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index page 1`] = `
+<div
+  className="terminal"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="terminal-nav"
+    >
+      <div
+        className="terminal-logo"
+      >
+        <div
+          className="logo terminal-prompt"
+        >
+          <a
+            className="no-style"
+            href="#"
+          >
+            calculate subnet
+          </a>
+        </div>
+      </div>
+    </div>
+    <form
+      className="sc-bdVaJa cQRorb"
+      onSubmit={[Function]}
+    >
+      <fieldset>
+        <legend>
+          INPUT
+        </legend>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="ipAddress"
+          >
+            IP Address:
+          </label>
+          <input
+            id="ipAddress"
+            name="ipAddress"
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder="127.0.0.1"
+            required={true}
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="subnetmask"
+          >
+            Subnetmask:
+          </label>
+          <div
+            className="subnetmask-row"
+          >
+            <input
+              id="subnetmask"
+              name="subnetmask"
+              onBlur={[Function]}
+              onChange={[Function]}
+              placeholder="255.255.255.0"
+              required={true}
+              type="text"
+            />
+            <input
+              id="subnetmaskNumber"
+              name="subnetmaskNumber"
+              readOnly={true}
+              type="text"
+              value={0}
+            />
+          </div>
+        </div>
+        <div
+          className="form-group"
+        >
+          <button
+            className="btn btn-default"
+            disabled={true}
+            name="submit"
+            role="button"
+            type="submit"
+          >
+            Calculate
+          </button>
+        </div>
+      </fieldset>
+    </form>
+    <section
+      style={
+        Object {
+          "marginTop": 24,
+        }
+      }
+    >
+      <header>
+        <h2>
+          Supplement
+        </h2>
+      </header>
+      <ul>
+        <li>
+          \`IP Address\` An Internet Protocol address
+        </li>
+        <li>
+          \`Subnetmask\` a logical subdivision of an IP network
+        </li>
+      </ul>
+    </section>
+    <form
+      className="sc-bwzfXH kCVTtK"
+      onSubmit={[Function]}
+    >
+      <fieldset>
+        <legend>
+          OUTPUT
+        </legend>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="networkAddressDecimal"
+          >
+            Network Address:
+            
+          </label>
+          <input
+            id="networkAddressDecimal"
+            name="networkAddressDecimal"
+            readOnly={true}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="hostAddressFrom"
+          >
+            Host Address:
+             
+            <span
+              style={
+                Object {
+                  "display": "inline-block",
+                }
+              }
+            >
+              
+            </span>
+          </label>
+          <div
+            className="row"
+          >
+            <input
+              id="hostAddressFrom"
+              name="hostAddressFrom"
+              readOnly={true}
+              type="text"
+              value=""
+            />
+            <span>
+               ~ 
+            </span>
+            <input
+              id="hostAddressTo"
+              name="hostAddressTo"
+              readOnly={true}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="broadcastAddress"
+          >
+            Broadcast Address:
+             
+            
+          </label>
+          <div
+            className="row"
+          >
+            <input
+              id="broadcastAddress"
+              name="broadcastAddress"
+              readOnly={true}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </fieldset>
+    </form>
+    <hr />
+    <section>
+      <header>
+        <h2>
+          Navigation Lists
+        </h2>
+      </header>
+      <nav>
+        <ul>
+          <li>
+            <span>
+              Libraries
+            </span>
+            <ul>
+              <li>
+                <a
+                  href="https://www.npmjs.com/package/react"
+                >
+                  React
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.npmjs.com/package/next"
+                >
+                  NextJS
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.npmjs.com/package/terminal.css"
+                >
+                  Terminal.css
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span>
+              Author - nju33
+            </span>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/nju33"
+                >
+                  GItHub
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://nju33.com"
+                >
+                  Blog
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`index page 2`] = `
+<div
+  className="terminal"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="terminal-nav"
+    >
+      <div
+        className="terminal-logo"
+      >
+        <div
+          className="logo terminal-prompt"
+        >
+          <a
+            className="no-style"
+            href="#"
+          >
+            calculate subnet
+          </a>
+        </div>
+      </div>
+    </div>
+    <form
+      className="sc-bdVaJa cQRorb"
+      onSubmit={[Function]}
+    >
+      <fieldset>
+        <legend>
+          INPUT
+        </legend>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="ipAddress"
+          >
+            IP Address:
+          </label>
+          <input
+            id="ipAddress"
+            name="ipAddress"
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder="127.0.0.1"
+            required={true}
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="subnetmask"
+          >
+            Subnetmask:
+          </label>
+          <div
+            className="subnetmask-row"
+          >
+            <input
+              id="subnetmask"
+              name="subnetmask"
+              onBlur={[Function]}
+              onChange={[Function]}
+              placeholder="255.255.255.0"
+              required={true}
+              type="text"
+            />
+            <input
+              id="subnetmaskNumber"
+              name="subnetmaskNumber"
+              readOnly={true}
+              type="text"
+              value={0}
+            />
+          </div>
+        </div>
+        <div
+          className="form-group"
+        >
+          <button
+            className="btn btn-default"
+            disabled={true}
+            name="submit"
+            role="button"
+            type="submit"
+          >
+            Calculate
+          </button>
+        </div>
+      </fieldset>
+    </form>
+    <section
+      style={
+        Object {
+          "marginTop": 24,
+        }
+      }
+    >
+      <header>
+        <h2>
+          Supplement
+        </h2>
+      </header>
+      <ul>
+        <li>
+          \`IP Address\` An Internet Protocol address
+        </li>
+        <li>
+          \`Subnetmask\` a logical subdivision of an IP network
+        </li>
+      </ul>
+    </section>
+    <form
+      className="sc-bwzfXH kCVTtK"
+      onSubmit={[Function]}
+    >
+      <fieldset>
+        <legend>
+          OUTPUT
+        </legend>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="networkAddressDecimal"
+          >
+            Network Address:
+            
+          </label>
+          <input
+            id="networkAddressDecimal"
+            name="networkAddressDecimal"
+            readOnly={true}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="hostAddressFrom"
+          >
+            Host Address:
+             
+            <span
+              style={
+                Object {
+                  "display": "inline-block",
+                }
+              }
+            >
+              
+            </span>
+          </label>
+          <div
+            className="row"
+          >
+            <input
+              id="hostAddressFrom"
+              name="hostAddressFrom"
+              readOnly={true}
+              type="text"
+              value=""
+            />
+            <span>
+               ~ 
+            </span>
+            <input
+              id="hostAddressTo"
+              name="hostAddressTo"
+              readOnly={true}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="broadcastAddress"
+          >
+            Broadcast Address:
+             
+            
+          </label>
+          <div
+            className="row"
+          >
+            <input
+              id="broadcastAddress"
+              name="broadcastAddress"
+              readOnly={true}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </fieldset>
+    </form>
+    <hr />
+    <section>
+      <header>
+        <h2>
+          Navigation Lists
+        </h2>
+      </header>
+      <nav>
+        <ul>
+          <li>
+            <span>
+              Libraries
+            </span>
+            <ul>
+              <li>
+                <a
+                  href="https://www.npmjs.com/package/react"
+                >
+                  React
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.npmjs.com/package/next"
+                >
+                  NextJS
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.npmjs.com/package/terminal.css"
+                >
+                  Terminal.css
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span>
+              Author - nju33
+            </span>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/nju33"
+                >
+                  GItHub
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://nju33.com"
+                >
+                  Blog
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`index page 3`] = `
+<div
+  className="terminal"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="terminal-nav"
+    >
+      <div
+        className="terminal-logo"
+      >
+        <div
+          className="logo terminal-prompt"
+        >
+          <a
+            className="no-style"
+            href="#"
+          >
+            calculate subnet
+          </a>
+        </div>
+      </div>
+    </div>
+    <form
+      className="sc-bdVaJa cQRorb"
+      onSubmit={[Function]}
+    >
+      <fieldset>
+        <legend>
+          INPUT
+        </legend>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="ipAddress"
+          >
+            IP Address:
+          </label>
+          <input
+            id="ipAddress"
+            name="ipAddress"
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder="127.0.0.1"
+            required={true}
+            type="text"
+          />
+          <p
+            className="error"
+          >
+            ip address error
+          </p>
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="subnetmask"
+          >
+            Subnetmask:
+          </label>
+          <div
+            className="subnetmask-row"
+          >
+            <input
+              id="subnetmask"
+              name="subnetmask"
+              onBlur={[Function]}
+              onChange={[Function]}
+              placeholder="255.255.255.0"
+              required={true}
+              type="text"
+            />
+            <input
+              id="subnetmaskNumber"
+              name="subnetmaskNumber"
+              readOnly={true}
+              type="text"
+              value={0}
+            />
+          </div>
+          <p
+            className="error"
+          >
+            subnetmask error
+          </p>
+        </div>
+        <div
+          className="form-group"
+        >
+          <button
+            className="btn btn-default"
+            disabled={true}
+            name="submit"
+            role="button"
+            type="submit"
+          >
+            Calculate
+          </button>
+        </div>
+      </fieldset>
+    </form>
+    <section
+      style={
+        Object {
+          "marginTop": 24,
+        }
+      }
+    >
+      <header>
+        <h2>
+          Supplement
+        </h2>
+      </header>
+      <ul>
+        <li>
+          \`IP Address\` An Internet Protocol address
+        </li>
+        <li>
+          \`Subnetmask\` a logical subdivision of an IP network
+        </li>
+      </ul>
+    </section>
+    <form
+      className="sc-bwzfXH kCVTtK"
+      onSubmit={[Function]}
+    >
+      <fieldset>
+        <legend>
+          OUTPUT
+        </legend>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="networkAddressDecimal"
+          >
+            Network Address:
+            
+          </label>
+          <input
+            id="networkAddressDecimal"
+            name="networkAddressDecimal"
+            readOnly={true}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="hostAddressFrom"
+          >
+            Host Address:
+             
+            <span
+              style={
+                Object {
+                  "display": "inline-block",
+                }
+              }
+            >
+              
+            </span>
+          </label>
+          <div
+            className="row"
+          >
+            <input
+              id="hostAddressFrom"
+              name="hostAddressFrom"
+              readOnly={true}
+              type="text"
+              value=""
+            />
+            <span>
+               ~ 
+            </span>
+            <input
+              id="hostAddressTo"
+              name="hostAddressTo"
+              readOnly={true}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="broadcastAddress"
+          >
+            Broadcast Address:
+             
+            
+          </label>
+          <div
+            className="row"
+          >
+            <input
+              id="broadcastAddress"
+              name="broadcastAddress"
+              readOnly={true}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </fieldset>
+    </form>
+    <hr />
+    <section>
+      <header>
+        <h2>
+          Navigation Lists
+        </h2>
+      </header>
+      <nav>
+        <ul>
+          <li>
+            <span>
+              Libraries
+            </span>
+            <ul>
+              <li>
+                <a
+                  href="https://www.npmjs.com/package/react"
+                >
+                  React
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.npmjs.com/package/next"
+                >
+                  NextJS
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.npmjs.com/package/terminal.css"
+                >
+                  Terminal.css
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span>
+              Author - nju33
+            </span>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/nju33"
+                >
+                  GItHub
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://nju33.com"
+                >
+                  Blog
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`index page 4`] = `
+<div
+  className="terminal"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="terminal-nav"
+    >
+      <div
+        className="terminal-logo"
+      >
+        <div
+          className="logo terminal-prompt"
+        >
+          <a
+            className="no-style"
+            href="#"
+          >
+            calculate subnet
+          </a>
+        </div>
+      </div>
+    </div>
+    <form
+      className="sc-bdVaJa cQRorb"
+      onSubmit={[Function]}
+    >
+      <fieldset>
+        <legend>
+          INPUT
+        </legend>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="ipAddress"
+          >
+            IP Address:
+          </label>
+          <input
+            id="ipAddress"
+            name="ipAddress"
+            onBlur={[Function]}
+            onChange={[Function]}
+            placeholder="127.0.0.1"
+            required={true}
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="subnetmask"
+          >
+            Subnetmask:
+          </label>
+          <div
+            className="subnetmask-row"
+          >
+            <input
+              id="subnetmask"
+              name="subnetmask"
+              onBlur={[Function]}
+              onChange={[Function]}
+              placeholder="255.255.255.0"
+              required={true}
+              type="text"
+            />
+            <input
+              id="subnetmaskNumber"
+              name="subnetmaskNumber"
+              readOnly={true}
+              type="text"
+              value={0}
+            />
+          </div>
+        </div>
+        <div
+          className="form-group"
+        >
+          <button
+            className="btn btn-default"
+            disabled={true}
+            name="submit"
+            role="button"
+            type="submit"
+          >
+            Calculate
+          </button>
+        </div>
+      </fieldset>
+    </form>
+    <section
+      style={
+        Object {
+          "marginTop": 24,
+        }
+      }
+    >
+      <header>
+        <h2>
+          Supplement
+        </h2>
+      </header>
+      <ul>
+        <li>
+          \`IP Address\` An Internet Protocol address
+        </li>
+        <li>
+          \`Subnetmask\` a logical subdivision of an IP network
+        </li>
+      </ul>
+    </section>
+    <form
+      className="sc-bwzfXH kCVTtK"
+      onSubmit={[Function]}
+    >
+      <fieldset>
+        <legend>
+          OUTPUT
+        </legend>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="networkAddressDecimal"
+          >
+            Network Address:
+            00000000.00000000.00000000.00000000
+          </label>
+          <input
+            id="networkAddressDecimal"
+            name="networkAddressDecimal"
+            readOnly={true}
+            type="text"
+            value="0.0.0.0"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="hostAddressFrom"
+          >
+            Host Address:
+             
+            <span
+              style={
+                Object {
+                  "display": "inline-block",
+                }
+              }
+            >
+              00000000.00000000.00000000.00000000 ~ 00000000.00000000.00000000.00000000
+            </span>
+          </label>
+          <div
+            className="row"
+          >
+            <input
+              id="hostAddressFrom"
+              name="hostAddressFrom"
+              readOnly={true}
+              type="text"
+              value="0.0.0.0"
+            />
+            <span>
+               ~ 
+            </span>
+            <input
+              id="hostAddressTo"
+              name="hostAddressTo"
+              readOnly={true}
+              type="text"
+              value="0.0.0.0"
+            />
+          </div>
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="broadcastAddress"
+          >
+            Broadcast Address:
+             
+            00000000.00000000.00000000.00000000
+          </label>
+          <div
+            className="row"
+          >
+            <input
+              id="broadcastAddress"
+              name="broadcastAddress"
+              readOnly={true}
+              type="text"
+              value="0.0.0.0"
+            />
+          </div>
+        </div>
+      </fieldset>
+    </form>
+    <hr />
+    <section>
+      <header>
+        <h2>
+          Navigation Lists
+        </h2>
+      </header>
+      <nav>
+        <ul>
+          <li>
+            <span>
+              Libraries
+            </span>
+            <ul>
+              <li>
+                <a
+                  href="https://www.npmjs.com/package/react"
+                >
+                  React
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.npmjs.com/package/next"
+                >
+                  NextJS
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.npmjs.com/package/terminal.css"
+                >
+                  Terminal.css
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <span>
+              Author - nju33
+            </span>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/nju33"
+                >
+                  GItHub
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://nju33.com"
+                >
+                  Blog
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </div>
+</div>
+`;

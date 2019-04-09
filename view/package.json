@@ -1,0 +1,28 @@
+{
+  "name": "@glitch--calculate-subnet/view",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nju33/glitch--calculate-subnet.git",
+  "author": "nju33 <nju33.ki@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": ":",
+    "dev": "next dev -p 3323",
+    "build": "next build && next export -o ../dist",
+    "postbuild": "rm -rf .next/*",
+    "prestart": "yarn next.build"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "body-parser": "^1.18.3",
+    "clipboard": "^2.0.4",
+    "formik": "^1.5.2",
+    "next": "^8.0.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0",
+    "terminal.css": "^0.6.6",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {}
+}
